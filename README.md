@@ -15,7 +15,7 @@ Caso queira criar uma nova aplicação React, basta copiar os conteúdos deste r
 
 # Formulário LabeCard 
 
-O **Formulário LabeCard** será uma  plataforma dedicada a facilitar o processo de registro do do cartão de crédito ou débito de estudantes para realizar compras de cursos na renomada instituição de ensino, Labenu. Com uma interface intuitiva e segura, a plataforma deve oferecer uma experiência tranquila e conveniente. Por enquanto temos apenas o design deste projeto e precisamos de você para implementar o formulário.
+O **Formulário LabeCard** será uma  plataforma dedicada a facilitar o processo de registro do cartão de crédito ou débito de estudantes para realizar compras de cursos na renomada instituição de ensino, Labenu. Com uma interface intuitiva e segura, a plataforma deve oferecer uma experiência tranquila e conveniente. Por enquanto temos apenas o design deste projeto e precisamos de você para implementar o formulário.
 ![image](https://github.com/labenuexercicios/inputs-controlados-exercicios/assets/71137294/7a66a039-1989-4e56-abb5-76a933ef6614)
 
 
