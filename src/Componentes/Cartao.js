@@ -1,7 +1,6 @@
 import { CVC, DesignDoCartao, FormaDePagamento, LogoLabenu, LogoMasterCard, Nome, NumeroDoCartao, Validade } from "./estiloDoCartao";
 
 
-
 function Cartao(props) {
     return (
         <DesignDoCartao>
@@ -12,22 +11,22 @@ function Cartao(props) {
             />
 
             <NumeroDoCartao>
-                {props.numero}
+               Nº Cartão: {props.numero === ""? "0000 0000 0000 0000" :props.numero}
                 
             </NumeroDoCartao>
 
             <Nome>
-                {props.nome}
+                Nome: {props.nome}
             </Nome>
 
             <CVC>
-                cvc:{props.cvc}
+                cvc:{props.cvc === "" ? " 000" :props.cvc}
             </CVC>
 
             <FormaDePagamento> $ {props.pagamento}</FormaDePagamento>
 
             <Validade>
-                validade: {props.validade}
+                validade: {props.validade === "" ? " -- / ----" : props.validade }
             </Validade>
 
             <LogoMasterCard
